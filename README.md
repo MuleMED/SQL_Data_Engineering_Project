@@ -11,9 +11,9 @@ This repository covers an end-to-end workflow from **raw job-market data to anal
 - [Lessons](./lessons)
 - [Resources](./resources)
 - [Projects](./projects)
-  - [Project 1: Exploratory Data Analysis](./projects/project-1/exploratory-data-analysis)
-  - [Project 2: Data Warehouse & Mart Build](./projects/project-2/data-warehouse--mart-build)
-  - [Project 3: Flat to Warehouse Build](./projects/project-3/flat-to-warehouse-build)
+  - [Project 1: Exploratory Data Analysis](./projects/1_EDA/exploratory-data-analysis)
+  - [Project 2: Data Warehouse & Mart Build](./projects/2_WH_Mart_Build/data-warehouse--mart-build)
+  - [Project 3: Flat to Warehouse Build](./projects/3_Flat_to_WH_Build/flat-to-warehouse-build)
 - [How to Run](#how-to-run)
 
 ## Lessons
