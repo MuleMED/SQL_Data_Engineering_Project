@@ -24,3 +24,45 @@ HAVING
 ORDER BY
     median_salary DESC
 LIMIT 25;
+
+/*
+Key Takeaways
+
+The key insights from the data are:
+- Highest median salary: Rust — $210,000.
+- Strong salary and frequency: Go ($184,000; 912 occurrences) and Terraform ($184,000; 3,248 occurrences).
+- Highest frequency: Airflow — 9,996 occurrences, with a $150,000 median salary.
+
+- Practical takeaway: Terraform, Go, Kubernetes and Airflow are worth investigating because they combine competitive salaries with meaningful demand.
+┌────────────┬───────────────┬─────────────┐
+│   skills   │ median_salary │ skill_count │
+│  varchar   │    double     │    int64    │
+├────────────┼───────────────┼─────────────┤
+│ rust       │      210000.0 │         232 │
+│ golang     │      184000.0 │         912 │
+│ terraform  │      184000.0 │        3248 │
+│ spring     │      175500.0 │         364 │
+│ neo4j      │      170000.0 │         277 │
+│ gdpr       │      169616.0 │         582 │
+│ zoom       │      168438.0 │         127 │
+│ graphql    │      167500.0 │         445 │
+│ mongo      │      162250.0 │         265 │
+│ fastapi    │      157500.0 │         204 │
+│ bitbucket  │      155000.0 │         478 │
+│ django     │      155000.0 │         265 │
+│ crystal    │      154224.0 │         129 │
+│ c          │      151500.0 │         444 │
+│ atlassian  │      151500.0 │         249 │
+│ typescript │      151000.0 │         388 │
+│ kubernetes │      150500.0 │        4202 │
+│ ruby       │      150000.0 │         736 │
+│ css        │      150000.0 │         262 │
+│ node       │      150000.0 │         179 │
+│ airflow    │      150000.0 │        9996 │
+│ redis      │      149000.0 │         605 │
+│ vmware     │      148798.0 │         136 │
+│ ansible    │      148798.0 │         475 │
+│ jupyter    │      147500.0 │         400 │
+└────────────┴───────────────┴─────────────┘
+  25 rows                        3 columns
+*/
