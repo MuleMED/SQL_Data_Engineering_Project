@@ -1,0 +1,50 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Data files that may be large or sensitive
+*.parquet
+*.sqlite
+*.db
+
+# Operating system files
+Thumbs.db
+Desktop.ini
