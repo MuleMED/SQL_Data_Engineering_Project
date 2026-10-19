@@ -5,12 +5,12 @@ Hands-on projects to reinforce core data engineering concepts from the SQL for D
 # Projects
 
 ## [1_EDA/](./1_EDA/) - Exploratory Data Analysis
-![EDA Project Overview](../resources/1_eda.png)
+![EDA Project Overview](../resources/01_eda/1_eda.png)
 SQL-driven analysis of data engineer job market trends using advanced querying techniques.
 
-1. [01_top_demanded_skills.sql](/projects/1_EDA/01_top_demanded_skills.sql)
-2. [02_top_paying_skills.sql](/projects/1_EDA/02_top_paying_skills.sql)
-3. [03_optimal_skills.sql](/projects/1_EDA/03_optimal_skills.sql)
+1. [01_top_demanded_skills.sql](./1_EDA/01_top_demanded_skills.sql)
+2. [02_top_paying_skills.sql](./1_EDA/02_top_paying_skills.sql)
+3. [03_optimal_skills.sql](./1_EDA/03_optimal_skills.sql)
 
 **Skills**: Complex joins, aggregations, analytical functions, data quality validation
 
