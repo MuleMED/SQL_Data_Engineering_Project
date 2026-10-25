@@ -41,15 +41,25 @@ SELECT *
 FROM staging.priority_jobs_flat_view
 LIMIT 10;
 
-SELECT COUNT(*)
+SELECT COUNT(*) AS View_priority_jobs_flat_Total
 FROM staging.priority_jobs_flat_view;
 
 SELECT 
 job_title_short,
-COUNT(*)
+COUNT(*) total_demand
 FROM staging.priority_jobs_flat_view
 GROUP BY job_title_short
 ORDER BY COUNT(*) DESC;
+
+-- Temporary Table
+CREATE OR REPLACE TEMPORARY TABLE priority_jobs_flat_view_temp AS
+SELECT
+*
+FROM staging.priority_jobs_flat_view
+WHERE job_title_short = 'Software Engineer';
+
+SELECT COUNT(*) AS Temporary_priority_jobs_flat_view_Table
+FROM priority_jobs_flat_view_temp;
 
 TRUNCATE TABLE staging.job_postings_flat;
 

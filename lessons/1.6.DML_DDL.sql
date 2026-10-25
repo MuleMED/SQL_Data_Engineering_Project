@@ -57,7 +57,7 @@ ALTER TABLE staging.priority_roles
 ALTER COLUMN priority_lvl TYPE INTEGER;
 
 UPDATE staging.priority_roles
-SET priority_lvl = 3
+SET priority_lvl = 1
 WHERE role_id = 4;
 
 SELECT *
